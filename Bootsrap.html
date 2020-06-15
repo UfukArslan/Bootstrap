@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap initiation</title>
+
+    <!-- Add here the link to Bootstrap -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Add here the link to Awesome -->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    
+  </head>
+  <body>
+    
+    <!-- <h1>This is a h1 Title <small>with small text inside</small></h1>
+    <h2>This is a h2 Title</h2>
+    <p>This is a paragraph <small>with small text inside</small></p>
+    <p><mark>Some highlight text.</mark></p>
+    <p>Here is an <abbr title="abbreviation">abbr</abbr> tag.</p>
+    <p>Do you want to write some <code>function()</code>?</p> -->
+
+    <!-- Voir plus bas pour la barre de navigation -->
+    <!-- ------------------------------------------------------------ -->
+
+    <h1>Navbar fixed</h1>
+
+    <nav class="navbar navbar-expand navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a href="/" class="navbar-brand">Bootstrap Initiation</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="compare.html" class="nav-link">Compare</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="compare.html" class="nav-link">Compare</a>
+                    </li>
+                </ul>
+            </div>
+          <a class="btn btn-outline-light" href="#">Go to top</a>
+        </div>
+    </nav>
+
+
+    <!-- Containers represents the <div>s that structure your content -->
+    <!-- ------------------------------------------------------------ -->
+
+    <div>
+        <h1>Bootstrap Initiation</h1>
+        <div>Here will go the content.</div>
+    </div>
+
+    <div class="container-fluid" >
+        <h1>Bootstrap Initiation</h1>
+        <div>Here will go the content.</div>
+    </div>
+
+    <div class="container" >
+        <h1>Bootstrap Initiation</h1>
+        <div>Here will go the content.</div>
+    </div>
+
+
+    <!-- Table -->
+    <!-- ------------------------------------------------------------ -->
+
+    <div class="container">Here will go the content.
+        <h2>Tables</h2>
+
+        
+        <table class="table">
+            <thead>
+            <th>#</th>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Starship</th>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Jean-Luc</td>
+                <td>Picard</td>
+                <td>Enterprise D</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Benjamin</td>
+                <td>Sisko</td>
+                <td>Defiant</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Kathryn</td>
+                <td>Janeway</td>
+                <td>Voyager</td>
+            </tr>
+            </tbody>
+        </table>
+        
+
+
+        <table class="table table-striped">
+            <thead>
+                <th>#</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Starship</th>
+            </thead>
+            <tbody>
+                <tr>
+                <td>1</td>
+                <td>Jean-Luc</td>
+                <td>Picard</td>
+                <td>Enterprise D</td>
+                </tr>
+                <tr>
+                <td>2</td>
+                <td>Benjamin</td>
+                <td>Sisko</td>
+                <td>Defiant</td>
+                </tr>
+                <tr>
+                <td>3</td>
+                <td>Kathryn</td>
+                <td>Janeway</td>
+                <td>Voyager</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <table class="table table-bordered">
+            <thead>
+                <th>#</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Starship</th>
+            </thead>
+            <tbody>
+                <tr>
+                <td>1</td>
+                <td>Jean-Luc</td>
+                <td>Picard</td>
+                <td>Enterprise D</td>
+                </tr>
+                <tr>
+                <td>2</td>
+                <td>Benjamin</td>
+                <td>Sisko</td>
+                <td>Defiant</td>
+                </tr>
+                <tr>
+                <td>3</td>
+                <td>Kathryn</td>
+                <td>Janeway</td>
+                <td>Voyager</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Surbrillance lorsque la souris survol la zone -->
+        <table class="table table-hover">
+            <thead>
+                <th>#</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Starship</th>
+            </thead>
+            <tbody>
+                <tr>
+                <td>1</td>
+                <td>Jean-Luc</td>
+                <td>Picard</td>
+                <td>Enterprise D</td>
+                </tr>
+                <tr>
+                <td>2</td>
+                <td>Benjamin</td>
+                <td>Sisko</td>
+                <td>Defiant</td>
+                </tr>
+                <tr>
+                <td>3</td>
+                <td>Kathryn</td>
+                <td>Janeway</td>
+                <td>Voyager</td>
+                </tr>
+            </tbody>
+        </table>
+   
+
+    <table class="table table-bordered table-striped table-hover" >
+        <thead>
+            <th>#</th>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Starship</th>
+        </thead>
+        <tbody>
+            <tr>
+            <td>1</td>
+            <td>Jean-Luc</td>
+            <td>Picard</td>
+            <td>Enterprise D</td>
+            </tr>
+            <tr>
+            <td>2</td>
+            <td>Benjamin</td>
+            <td>Sisko</td>
+            <td>Defiant</td>
+            </tr>
+            <tr>
+            <td>3</td>
+            <td>Kathryn</td>
+            <td>Janeway</td>
+            <td>Voyager</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<!-- Colors -->
+<!-- ------------------------------------------------------------ -->
+    
+<h2>Color classes</h2>
+    
+<p class="text-primary">This text uses the primary color scheme.</p>
+<p class="text-success">This text uses the success color scheme.</p>
+<p class="bg-warning">This paragraph has a warning colored background.</p>
+<p class="bg-info">This paragraph has an info colored background.</p>
+<p class="bg-danger text-light">Colored background and colored text</p> -->
+
+
+<!-- Components are what a web page is composed of -->
+<!-- ------------------------------------------------------------ -->
+
+    <div class="container">
+        <h2>Buttons</h2>
+
+        <div>
+            <a href="#">Link</a>
+            <button>Button</button>
+            <input type="submit" value="Input Submit" />
+            <input type="button" value="Input Button" />
+        </div>
+
+        <div>
+            <a href="#" class="btn">Link</a>
+            <button class="btn">Button</button>
+            <input type="submit" value="Input Submit" class="btn" />
+            <input type="button" value="Input Button" class="btn" />
+        </div>
+
+        <div>
+            <a href="#" class="btn btn-primary">Link</a>
+            <button class="btn btn-primary">Button</button>
+            <input type="submit" value="Input Submit" class="btn btn-primary" />
+            <input type="button" value="Input Button" class="btn btn-primary" />
+        </div>
+
+        <div>
+            <a href="#" class="btn btn-outline-primary">Link</a>
+            <button class="btn btn-outline-primary">Button</button>
+            <input type="submit" value="Input Submit" class="btn btn-outline-primary" />
+            <input type="button" value="Input Button" class="btn btn-outline-primary" />
+        </div>
+
+        <div>
+            <a href="#" class="btn btn-default">Link</a>
+            <button class="btn btn-info">Button</button>
+            <input type="submit" value="Input Submit" class="btn btn-success" />
+            <input type="button" value="Input Button" class="btn btn-outline-danger" />
+        </div>
+
+        <div>
+            <a href="#" class="btn btn-default">Link</a>
+            <button class="btn btn-info btn-lg">Button</button>
+            <input type="submit" value="Input Submit" class="btn btn-success" />
+            <input type="button" value="Input Button" class="btn btn-outline-danger btn-sm" />
+        </div>
+    </div>  
+
+<!-- ------------------------------------------------------------ -->
+
+
+        <h1>Forms</h1>
+
+        <form>
+            <input type="submit" class="btn btn-success" />
+        </form>
+
+        <h1>Forms-control</h1>
+
+        <form>
+            <label for="firstname">First name</label>
+            <input type="text" id="lastname" class="form-control" />
+            <input type="submit" class="btn btn-success" />
+        </form>
+
+        <h1>Forms-group</h1>
+
+        <form>
+            <div class="form-group">
+                <label for="firstname">First name</label>
+                <input type="text" id="lastname" class="form-control" />
+            </div>
+                <input type="submit" class="btn btn-success" />
+            
+        </form>
+
+        <h1>Forms-inline</h1>
+
+        <form class="form-inline" >
+            <div class="form-group">
+              <label for="firstname">First name</label>
+              <input type="text" id="firstname" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label for="lastname">Last name</label>
+              <input type="text" id="lastname" class="form-control" />
+            <input type="submit" class="btn btn-success" />
+            </div>
+        </form>
+
+        <div class="form-group">
+            <input type="lastname" id="..." class="..." placeholder="Last name"  />
+        </div>
+
+
+        <!-- ------------------------------------------------------------ -->
+
+
+        <h1>Checkboxes</h1>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+            <label class="form-check-label" for="defaultCheck1">Remember me</label>
+        </div>
+
+        <h1>Radio buttons</h1>
+        
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="directions" id="leftDirection" value="left" checked/>
+            <label class="form-check-label" for="leftDirection">Left</label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="directions" id="rightDirection" value="right"/>
+            <label class="form-check-label" for="rightDirection">Right</label>
+        </div>
+
+
+
+        <!-- ------------------------------------------------------------ -->  
+
+
+        <h1>Navbar</h1>
+
+        <nav class="navbar navbar-expand bg-light">Bootstrap Initiation</nav>
+
+        <div class="container">
+            <p>Main content</p>
+        </div>
+
+        
+        <h1>Navbar width 1.1</h1>
+
+        <nav class="navbar navbar-expand bg-light container">Bootstrap Initiation</nav>
+
+        <div class="container">
+            <p>Main content</p>
+        </div>
+
+        <h1>Navbar width 1.2</h1>
+
+        <nav class="navbar navbar-expand bg-light"><div class="container">Bootstrap Initiation</div></nav>
+
+        <div class="container">
+            <p>Main content</p>
+        </div>
+
+
+        <h1>Navbar Brand</h1>
+
+        <nav class="navbar navbar-expand bg-light">
+            <div class="container">
+                <a href="/" class="navbar-brand">Bootstrap Initiation</a>
+            </div>
+        </nav>
+
+        <div class="container">
+            <p>Main content</p>
+        </div>
+        
+        
+        <h1>Navbar theming</h1>
+
+        <nav class="navbar navbar-expand navbar-dark bg-primary">
+            <div class="container">
+                <a href="/" class="navbar-brand">Bootstrap Initiation</a>
+            </div>
+        </nav>
+
+        <div class="container">
+            <p>Main content</p>
+        </div>
+
+
+        <h1>Navbar links</h1>
+
+        <nav class="navbar navbar-expand bg-light">
+            <div class="container">
+                <a href="/" class="navbar-brand">Bootstrap Initiation</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a href="compare.html" class="nav-link">Compare</a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <p>Main content</p>
+        </div>
+
+        <h1>Navbar buttons</h1>
+
+        <nav class="navbar navbar-expand navbar-dark bg-primary">
+            <div class="container">
+                <a href="/" class="navbar-brand">Bootstrap Initiation</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="compare.html" class="nav-link">Compare</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="compare.html" class="nav-link">Compare</a>
+                        </li>
+                    </ul>
+                </div>
+              <a class="btn btn-outline-light" href="#">Go to top</a>
+            </div>
+        </nav>
+
+        <!-- ------------------------------------------------------------ --> 
+
+        <h1>Lists</h1>
+
+        <ul class="list-group">
+            <li class="list-groupe-item">The Orginal Serie</li>
+            <li class="list-groupe-item">The Next Generation</li>
+            <li class="list-groupe-item">Deep Space Nine</li>
+            <li class="list-groupe-item">Voyager</li>
+            <li class="list-groupe-item">Enterprise</li>
+            <li class="list-groupe-item">Discovery</li>
+            <li class="list-groupe-item">Picard</li>
+        </ul>
+
+        <h1>Link elements</h1>
+
+        <div class="list-group">
+            <a href="/" class="list-group item action">The Original Serie</a>
+            <a href="/" class="list-group item action">The Original Serie</a>
+            <a href="/" class="list-group item action">The Original Serie</a>
+            <a href="/" class="list-group item action">The Original Serie</a>
+            <a href="/" class="list-group item action">The Original Serie</a>
+            <a href="/" class="list-group item action">The Original Serie</a>
+            <a href="/" class="list-group item action">The Original Serie</a>
+        </div>
+
+        <h1>Liste more (WHATSAPP)</h1>
+        <div class="list-group">
+            <a class="list-group-item list-group-item-action">
+                <h5>James T. Kirk</h5>
+                <p>Beam me up, Scotty!</p>
+            </a>
+            <a class="list-group-item list-group-item-action"></a>
+            <a class="list-group-item list-group-item-action"></a>
+        </div>
+
+        <h1>List item colors</h1>
+        <div class="list-group">
+            <a class="list-group-item list-group-item-action list-group-item-success">
+            Hello
+            </a>
+            <a class="list-group-item list-group-item-action list-group-item-info">
+                Hello
+            </a>
+            <a class="list-group-item list-group-item-action list-group-item-danger">
+            Hello
+            </a>
+        </div>
+
+        <!-- ------------------------------------------------------------ --> 
+
+        <h1>Bagdes</h1>
+
+        <a class="list-group-item list-group-item-action  list-group-item-success">
+            <h5 class="d-flex justify-content-between">
+            <span>Jame T. Kirk</span>
+            <span class="badge badge-light">3</span>
+            </h5>
+            <p>Beam me up, Scotty!</p>
+        </a>
+
+        <!-- ------------------------------------------------------------ --> 
+
+        <h2>Cards</h2>
+
+        <div class="card">Today, I ate an apple. It was tasty</div>
+        
+
+        <h2>Cards Body</h2>
+
+        <div class="card">
+            <div class="card-body">Today, I ate an apple. It was tasty</div>
+        </div>
+
+
+        <h2>Cards stying</h2>
+
+        <div class="card text-primary bg-warning">
+            <div class="card-header text-danger">
+              John Doe commented on that:
+            </div>
+            <div class="card-body bg-dark">
+              Today, I ate an apple. It was tasty
+            </div>
+            <div class="card-footer bg-info">
+              <button class="btn btn-light btn-sm">Like</button>
+            </div>
+          </div>
+
+        
+        <!-- ------------------------------------------------------------ -->
+
+        <h2>Icons</h2>
+        <div>
+          <button class="btn btn-light"><i class="fas fa-align-left"></i></button>
+          <button class="btn btn-light"><i class="fas fa-align-center"></i></button>
+          <button class="btn btn-light"><i class="fas fa-align-right"></i></button>
+        </div>
+        
+   
+  </body>
+</html>
+
